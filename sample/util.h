@@ -3,11 +3,11 @@
 
 #include "itensor/all.h"
 //  #define ARMA_DONT_USE_CXX11
-#include <armadillo>
+// #include <armadillo>
 #include <vector>
 
 using namespace itensor; 
-using namespace arma; 
+//using namespace arma; 
 using namespace std;
 typedef ITensor T; 
 
