@@ -14,7 +14,7 @@ double gmres_err = 10E-15, gauge_err = 10E-15;
 T identity(Index a, Index b)
 {
   T id(a, b); 
-  for(int i = 1; i < dim(a); i++)
+  for(int i = 1; i <= dim(a); i++)
   {
     id.set(a(i), b(i), 1); 
   }
